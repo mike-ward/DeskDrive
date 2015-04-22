@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  The format for the culture name is "<languagecode2>-<country/regioncode2>", where <languagecode2>
+  is the language code and <country/regioncode2> is the subculture code. Examples include "ja-JP" 
+  for Japanese (Japan) and "en-US" for English (United States). In cases where a two-letter language 
+  code is not available, a three-letter code derived from ISO 639-2 is used.
+  
+  A neutral culture is specified by only the two-digit lowercase language code. For example, "fr" 
+  specifies the neutral culture for French, and "de" specifies the neutral culture for German.
+-->
+<resources>
+  <strings>
+    <notifyIcon>
+      <default>Desk Drive</default>
+    </notifyIcon>
+    <showToolStripMenuItem>
+      <default>Settings...</default>
+      <vi>Thiết lập...</vi>
+      <ko-KR>설정</ko-KR>
+      <de>Einstellungen...</de>
+      <it>Impostazioni...</it>
+      <sl>Nastavitve...</sl>
+      <ja>設定 ...</ja>
+      <fi>Asetukset...</fi>
+      <zh-Hans>设置 ...</zh-Hans>
+      <pl>Ustawienia...</pl>
+      <pt-BR>Opções...</pt-BR>
+      <fr>Paramètres</fr>
+      <gl>Configuración...</gl>
+      <es>Configuración...</es>
+      <ar-SY>عدادات...</ar-SY>
+      <hr>Postavke...</hr>
+      <nl-BE>Instellingen...</nl-BE>
+      <nl>Instellingen...</nl>
+      <ru>Настройки...</ru>
+      <hu>Beállítások...</hu>
+      <zh-Hant>設定...</zh-Hant>
+      <el>Ρυθμίσεις</el>
+    </showToolStripMenuItem>
+    <exitToolStripMenuItem>
+      <default>Exit</default>
+      <vi>Thoát</vi>
+      <ko-KR>끝내기</ko-KR>
+      <de>Beenden</de>
+      <it>Esci</it>
+      <sl>Zaključi</sl>
+      <ja>終了</ja>
+      <fi>Lopeta</fi>
+      <zh-Hans>退出</zh-Hans>
+      <pl>Zakończ</pl>
+      <pt-BR>Sair</pt-BR>
+      <fr>Quittter</fr>
+      <gl>Salir</gl>
+      <es>Salir</es>
+      <ar-SY>خروج</ar-SY>
+      <hr>Zatvori</hr>
+      <nl-BE>Verlaten</nl-BE>
+      <nl>Afsluiten</nl>
+      <ru>Выход</ru>
+      <hu>Kilépés</hu>
+      <zh-Hant>離開</zh-Hant>
+      <el>Έξοδος</el>
+    </exitToolStripMenuItem>
+    <hideButton>
+      <default>OK</default>
+      <ko-KR>확인</ko-KR>
+      <sl>DA</sl>
+      <ar-SY>حسنا</ar-SY>
+      <hr>Prihvati</hr>
+      <zh-Hant>確定</zh-Hant>
+      <el>ΟΚ</el>
+    </hideButton>
+    <label1>
+      <default>Desk Drive</default>
+      <ko-KR>데스크 드라이브</ko-KR>
+    </label1>
+    <label2>
+      <default>Copyright © 2013 Mike Ward</default>
+      <vi>Bản quyền © 2013 Mike Ward</vi>
+      <ko-KR>저작권 © 2013 Mike Ward</ko-KR>
+      <zh-Hans>版权 © 2013 Mike Ward</zh-Hans>
+    </label2>
+    <label3>
+      <default>All rights reserved</default>
+      <vi>Bản quyền đã được bảo hộ</vi>
+      <ko-KR>모든 권리 소유</ko-KR>
+      <de>Alle Rechte vorbehalten</de>
+      <it>Tutti i diritti riservati</it>
+      <sl>Vse pravice zadržane</sl>
+      <fi>Kaikki oikeudet pidätetään</fi>
+      <zh-Hans>版权所有</zh-Hans>
+      <pl>Wszystkie prawa zastrzeżone</pl>
+      <pt-BR>Todos os direitos reservados</pt-BR>
+      <fr>Tous droits réservés</fr>
+      <gl>Tódolos dereitos reservados</gl>
+      <es>Todos los derechos reservados</es>
+      <ar-SY>ترجمة ماجد الحسين</ar-SY>
+      <hr>Sva prava pridržana</hr>
+      <nl>Alle rechten voorbehouden</nl>
+      <ru>Все права защищены</ru>
+      <hu>Minden jog fenntartva</hu>
+      <el>Όλα τα δικαιώματα διατηρούνται</el>
+    </label3>
+    <CDCheckBox>
+      <default>CD ROM</default>
+      <vi>Ổ CD-ROM</vi>
+      <ko-KR>CD ROM 드라이브</ko-KR>
+      <de>CD-ROM</de>
+      <it>CD ROM</it>
+      <sl>Zgoščenka</sl>
+      <fi>CD-asemat</fi>
+      <fr>CD-ROM</fr>
+      <hr>CD-ROM</hr>
+      <nl-BE>CD-Rom</nl-BE>
+      <nl>CD-ROM</nl>
+      <ru>CD-ROM</ru>
+      <hu>CD-ROM</hu>
+      <zh-Hant>光碟機</zh-Hant>
+      <el>CD-ROM</el>
+    </CDCheckBox>
+    <RemovableCheckBox>
+      <default>Removable</default>
+      <vi>Ổ đĩa di động</vi>
+      <ko-KR>이동식 드라이브</ko-KR>
+      <de>Entfernbare Medien</de>
+      <it>Dischi rimovibili</it>
+      <sl>Izmenljiv</sl>
+      <ja>リムーバブルディスク</ja>
+      <fi>Siirrettävät</fi>
+      <zh-Hans>移动盘</zh-Hans>
+      <pl>Dyski wymienne</pl>
+      <pt-BR>Removível</pt-BR>
+      <fr>Amovible</fr>
+      <gl>Extraíble</gl>
+      <es>Extraíble</es>
+      <ar-SY>قابل للإزالة</ar-SY>
+      <hr>Eksterni</hr>
+      <nl-BE>Verwisselbare media</nl-BE>
+      <nl>Verwisselbare media</nl>
+      <ru>Внешние</ru>
+      <hu>Cserélhető</hu>
+      <zh-Hant>卸除式裝置</zh-Hant>
+      <el>Προσθαφαιρούμενα</el>
+    </RemovableCheckBox>
+    <FixedCheckBox>
+      <default>Fixed</default>
+      <vi>Ổ đĩa cố định</vi>
+      <ko-KR>하드 드라이브</ko-KR>
+      <de>Feste Medien</de>
+      <it>Dischi rigidi</it>
+      <sl>Fiksne enote</sl>
+      <ja>固定ディスク</ja>
+      <fi>Paikalliset</fi>
+      <zh-Hans>本地驱动器</zh-Hans>
+      <pl>Dyski lokalne</pl>
+      <pt-BR>Fixo</pt-BR>
+      <fr>Fixe (interne)</fr>
+      <gl>Fixa</gl>
+      <es>Fija</es>
+      <ar-SY>ثابت</ar-SY>
+      <hr>Fiksni</hr>
+      <nl-BE>Vaste media</nl-BE>
+      <nl>Vaste media</nl>
+      <ru>Внутренние</ru>
+      <hu>Nem cserélhető</hu>
+      <zh-Hant>本機磁碟</zh-Hant>
+      <el>Σταθερά</el>
+    </FixedCheckBox>
+    <NetworkedCheckBox>
+      <default>Networked</default>
+      <vi>Ổ đĩa mạng</vi>
+      <ko-KR>네트워크 드라이브</ko-KR>
+      <de>Netzlaufwerke</de>
+      <it>Unità in Rete</it>
+      <sl>Mrežni pogoni</sl>
+      <ja>ネットワークドライブ</ja>
+      <fi>Verkkolevyt</fi>
+      <zh-Hans>网络驱动器</zh-Hans>
+      <pl>Sieciowe</pl>
+      <pt-BR>Unidade de Rede</pt-BR>
+      <fr>Réseau</fr>
+      <gl>Unidade de rede</gl>
+      <es>Unidad de red</es>
+      <ar-SY>على الشبكة</ar-SY>
+      <hr>Mrežni</hr>
+      <nl-BE>Netwerklocaties</nl-BE>
+      <nl>Netwerklocaties</nl>
+      <ru>Сетевые</ru>
+      <hu>Hálózati</hu>
+      <zh-Hant>網路虛擬磁碟</zh-Hant>
+      <el>Δικτυακά</el>
+    </NetworkedCheckBox>
+    <RamCheckBox>
+      <default>RAM</default>
+      <ko-KR>램 드라이브</ko-KR>
+      <de>RAM</de>
+      <it>Dischi RAM</it>
+      <sl>Spomin</sl>
+      <zh-Hans>RAM盘</zh-Hans>
+      <pl>RAM Dyski</pl>
+      <fr>RAM (mémoire)</fr>
+      <ar-SY>رام</ar-SY>
+      <nl-BE>RAM</nl-BE>
+      <ru>RAM (память)</ru>
+      <hu>Memória</hu>
+      <zh-Hant>記憶體 (RAM)</zh-Hant>
+      <el>RAM</el>
+    </RamCheckBox>
+    <label5>
+      <default>Version 2.1</default>
+      <vi>Phiên bản 2.1</vi>
+      <ko-KR>버전 2.1</ko-KR>
+      <de>Version 2.1</de>
+      <it>Versione 2.1</it>
+      <sl>Verzija 2.1</sl>
+      <ja>バージョン 2.1</ja>
+      <fi>Versio 2.1</fi>
+      <zh-Hans>版本 2.1</zh-Hans>
+      <pl>Wersja 2.1</pl>
+      <pt-BR>versão 2.1</pt-BR>
+      <fr>version 2.1</fr>
+      <gl>Versión 2.1</gl>
+      <es>Versión 2.1</es>
+      <ar-SY>الإصدار 2.1</ar-SY>
+      <hr>Verzija 2.1</hr>
+      <nl-BE>Versie 2.1</nl-BE>
+      <nl>Versie 2.1</nl>
+      <ru>Версия 2.1</ru>
+      <hu>Verzió 2.1</hu>
+      <zh-Hant>版本 2.1</zh-Hant>
+    </label5>
+    <label6>
+      <default>Automatic drive/media shortcuts for your desktop</default>
+      <vi>Tự động đặt shortcut cho các phương tiện lưu trữ trên Desktop</vi>
+      <ko-KR>자동 드라이브/데스크탑용 단축키 표시기</ko-KR>
+      <de>Automatische Laufwerks-/Medienverknüpfungen für Ihren Desktop</de>
+      <it>Collegamenti automatici per drive/media sul desktop</it>
+      <sl>Avtomatično bližnice na ekran</sl>
+      <ja>デスクトップにドライブ/メディアのショートカットを自動作成</ja>
+      <fi>Asemien pikakuvakkeet automaattisesti työpöydällesi</fi>
+      <zh-Hans>向桌面自动添加/移除驱动器图标</zh-Hans>
+      <pl>Automatyczne skróty napędów/mediów na pulpicie</pl>
+      <pt-BR>Atalhos automáticos de unidade/mídia para o desktop</pt-BR>
+      <fr>Raccourcis automatiques des disques/médias pour votre bureau</fr>
+      <gl>Accesos directos automáticos a discos e medios no teu escritorio</gl>
+      <es>Accesos directos automáticos a discos y medios en tu escritorio</es>
+      <ar-SY>قرص تلقائي/اختصارات تلقائية إلى سطح المكتب</ar-SY>
+      <hr>Automatske prečice pogona/medija na vašem desktopu</hr>
+      <nl-BE>Automatische schijf/mediasnelkoppeling op de desktop</nl-BE>
+      <nl>Automatische schijf-/media-snelkoppelingen op uw bureaublad</nl>
+      <ru>Автоматически отображает ярлыки дисков на рабочем столе</ru>
+      <hu>Automatikus meghajtó-parancsikon az asztalra</hu>
+      <zh-Hant>自動在桌面新增磁碟 / 隨身碟圖示</zh-Hant>
+      <el>Αυτόματες συντομεύσεις για δίσκους/πολυμέσα για την επιφάνεια εργασίας</el>
+    </label6>
+    <linkLabel1>
+      <default>http://mike-ward/deskdrive</default>
+    </linkLabel1>
+    <groupBox1>
+      <default>Enable</default>
+      <vi>Kích hoạt</vi>
+      <ko-KR>활성화</ko-KR>
+      <de>Aktivieren</de>
+      <it>Abilita per</it>
+      <sl>Vklopi</sl>
+      <ja>対象ドライブ</ja>
+      <fi>Ota käyttöön</fi>
+      <zh-Hans>监控</zh-Hans>
+      <pl>Aktywne</pl>
+      <pt-BR>Ativar</pt-BR>
+      <fr>Activer</fr>
+      <gl>Activar</gl>
+      <es>Activar</es>
+      <ar-SY>تمكين</ar-SY>
+      <hr>Omogući za</hr>
+      <nl-BE>Inschakelen</nl-BE>
+      <nl>Inschakelen</nl>
+      <ru>Отображать</ru>
+      <hu>Aktiválás</hu>
+      <zh-Hant>啟用</zh-Hant>
+      <el>Ενεργοποιημένα</el>
+    </groupBox1>
+    <label7>
+      <default>Exclude</default>
+      <ko-KR>제외</ko-KR>
+      <vi>Ngoại trừ</vi>
+      <de>Ausschließen</de>
+      <it>Escludi</it>
+      <sl>Izklopi</sl>
+      <ja>除外ドライブ</ja>
+      <fi>Älä käytä</fi>
+      <zh-Hans>排除</zh-Hans>
+      <pl>Wykluczone</pl>
+      <pt-BR>Excluir</pt-BR>
+      <fr>Exclure</fr>
+      <gl>Excluír</gl>
+      <es>Excluír</es>
+      <ar-SY>استثناء</ar-SY>
+      <hr>Isključi</hr>
+      <nl-BE>Uitgezonderd</nl-BE>
+      <nl>Uitsluiten</nl>
+      <ru>Не отображать</ru>
+      <hu>Kivétel</hu>
+      <zh-Hant>排除</zh-Hant>
+      <el>Παρέλειψε</el>
+    </label7>
+    <label8>
+      <default>( example: C:\, D:\ )</default>
+      <vi>( Ví dụ: C:\, D:\ )</vi>
+      <ko-KR>( 예: C:\, D:\ )</ko-KR>
+      <de>( Beispiel: C:\, D:\ )</de>
+      <it>( esempio: C:\, D:\ )</it>
+      <sl>( Primer: C:\, D:\ )</sl>
+      <ja>( 例: C:\, D:\ )</ja>
+      <fi>(esim: C:\, D:\)</fi>
+      <zh-Hans>( 例如: C:\, D:\ )</zh-Hans>
+      <pl>(przykład: C:\, D:\ )</pl>
+      <pt-BR>( exemplo: C:\, D:\ )</pt-BR>
+      <fr>( Exemple : C:\, D:\ )</fr>
+      <gl>( Exemplo: C:\, D:\ )</gl>
+      <es>( Ejemplo: C:\, D:\ )</es>
+      <ar-SY>( مثال: C:\, D:\ )</ar-SY>
+      <hr>( primjer: C:\, D:\ )</hr>
+      <nl-BE>( Bijvoorbeeld: C:\, D:\)</nl-BE>
+      <nl>( Bijvoorbeeld: C:\, D:\)</nl>
+      <ru>Например: C:\, D:\ </ru>
+      <hu>( Például: C:\, D:\ )</hu>
+      <zh-Hant>( 例如: C:\, D:\ )</zh-Hant>
+      <el>( π.χ.: C:\, D:\ )</el>
+    </label8>
+    <HideTrayCheckBox>
+      <default>Hide tray icon</default>
+      <vi>Ẩn biểu tượng trên khay hệ thống</vi>
+      <ko-KR>트레이 아이콘 숨김</ko-KR>
+      <de>Tray-Icon verstecken</de>
+      <it>Nascondi icona del tray</it>
+      <sl>Skri ikono statusne vrstice</sl>
+      <ja>トレイアイコンを隠す</ja>
+      <fi>Piilota kuvake</fi>
+      <zh-Hans>隐藏托盘图标</zh-Hans>
+      <pl>Ukryj ikonę zasobnika</pl>
+      <pt-BR>Ocultar ícone de bandeja</pt-BR>
+      <fr>Cacher l'icône du tray</fr>
+      <gl>Oculta icono da bandexa</gl>
+      <es>Ocultar icono de la bandeja</es>
+      <ar-SY>إخفاء الايقونة</ar-SY>
+      <hr>Sakrij ikonu statusne trake</hr>
+      <nl-BE>Verberg taakbalkpictogram</nl-BE>
+      <nl>Systeembalkpictogram verbergen</nl>
+      <ru>Скрывать иконку в панели</ru>
+      <hu>Tálcaikon elrejtése</hu>
+      <zh-Hant>隱藏系統匣圖示</zh-Hant>
+      <el>Απόκρυψη εικονιδίου μπάρας εργασίας</el>
+    </HideTrayCheckBox>
+    <StartupCheckBox>
+      <default>Run on startup</default>
+      <vi>Chạy khi Windows khởi động</vi>
+      <ko-KR>윈도우즈 시작시 실행</ko-KR>
+      <de>Bei Systemstart ausführen</de>
+      <it>Lancia all'avvio</it>
+      <sl>Zaženi skupaj z okni</sl>
+      <ja>システム起動時に実行</ja>
+      <fi>Autom. käynnistys</fi>
+      <zh-Hans>随系统启动</zh-Hans>
+      <pl>Uruchom z systemem</pl>
+      <pt-BR>Iniciar automaticamente</pt-BR>
+      <fr>Lancer au démarrage</fr>
+      <gl>Iniciar ao arrancar</gl>
+      <es>Iniciar al arrancar</es>
+      <ar-SY>البدء تلقائياً</ar-SY>
+      <hr>Pokreni pri podizanju sistema</hr>
+      <nl-BE>Uitvoeren bij opstarten</nl-BE>
+      <nl>Uitvoeren bij opstarten</nl>
+      <ru>Автостарт с Windows</ru>
+      <hu>Automatikus indítás</hu>
+      <zh-Hant>開機啟動</zh-Hant>
+      <el>Εκτέλεση κατά την εκκίνηση</el>
+    </StartupCheckBox>
+    <DeskDrive>
+      <default>Desk Drive</default>
+    </DeskDrive>
+    <minimizeAllCheckBox>
+      <default>Minimize all windows</default>
+      <vi>Thu nhỏ các cửa sổ</vi>
+      <ko-KR>모든 창 최소화</ko-KR>
+      <de>Alle Fenster minimieren</de>
+      <it>Riduci a icona tutte le finestre</it>
+      <sl>Minimiziraj okno</sl>
+      <ja>すべてのウィンドウを最小化</ja>
+      <fi>Pienennä ikkunat</fi>
+      <zh-Hans>插入U盘时最小化所有窗口</zh-Hans>
+      <pl>Minimalizuj wszystkie okna</pl>
+      <pt-BR>Minimizar todas as janelas</pt-BR>
+      <fr>Réduire toutes les fenêtres</fr>
+      <gl>Minimizar tódalas fiestras</gl>
+      <es>Minimizar todas las ventanas</es>
+      <ar-SY>تصغير كافة النوافذ</ar-SY>
+      <hr>Minimiziraj sve prozore</hr>
+      <nl-BE>Verberg alle vensters</nl-BE>
+      <nl>Alle vensters minimaliseren</nl>
+      <ru>Сворачивать открытые окна</ru>
+      <hu>Minden ablak lekicsinyítése</hu>
+      <zh-Hant>最小化所有視窗</zh-Hant>
+      <el>Ελαχιστοποίησε όλα τα παράθυρα</el>
+    </minimizeAllCheckBox>
+    <locusEffectCheckBox>
+      <default>Show positional effect</default>
+      <vi>Hiện hiệu ứng khi hiển thị biểu tượng</vi>
+      <ko-KR>위치 효과 표시</ko-KR>
+      <de>Symbolorte hervorheben</de>
+      <it>Evidenzia con animazione</it>
+      <sl>Show positional effect</sl>
+      <ja>ローカス(locus)効果をオン</ja>
+      <fi>Näytä sijaintitehoste</fi>
+      <zh-Hans>光晕定位效果</zh-Hans>
+      <pl>Pokaż efekt animacji</pl>
+      <pt-BR>Mostrar efeito de localização</pt-BR>
+      <fr>Afficher l'effet de position</fr>
+      <gl>Amosar animación de posición</gl>
+      <es>Mostrar animación de posición</es>
+      <ar-SY>عرض تأثير موضعي</ar-SY>
+      <hr>Pokaži pozicioniranje</hr>
+      <nl-BE>Toon plaatseffect</nl-BE>
+      <nl>Locatie-animatie weergeven</nl>
+      <ru>Показать эффект положения</ru>
+      <hu>Ikon helyének mutatása</hu>
+      <zh-Hant>顯示光暈效果</zh-Hant>
+      <el>Δείξε εφέ τοποθέτησης</el>
+    </locusEffectCheckBox>
+    <rememberIconPositionsCheckBox>
+      <default>Remember icon positions</default>
+      <vi>Ghi nhớ vị trí các biểu tượng</vi>
+      <ko-KR>아이콘 위치 표시</ko-KR>
+      <de>Icon-Position merken</de>
+      <it>Ricorda posizioni icone</it>
+      <sl>spominjati se ikona lega</sl>
+      <ja>アイコン位置を記憶</ja>
+      <fi>Muista kuvakkeiden sijainnit</fi>
+      <zh-Hans>记得图标的立场</zh-Hans>
+      <pl>Zapamiętaj pozycję ikon</pl>
+      <pt-BR>Lembrar posição dos ícones</pt-BR>
+      <fr>Enregistrer position des icônes</fr>
+      <gl>Lembrar posición dos iconos</gl>
+      <es>Recordar posición de los iconos</es>
+      <ar-SY>تذكر مواقع الايقونة</ar-SY>
+      <hr>Zapamti položaj ikone</hr>
+      <nl-BE>Onthou laatste positie van het pictogram</nl-BE>
+      <nl>Laatste pictogrammen-positie onthouden</nl>
+      <ru>Запоминать расположение иконок</ru>
+      <hu>Ikon pozíciók megjegyzése</hu>
+      <zh-Hant>記住圖示的位置</zh-Hant>
+      <el>Θυμήσου την θέση των εικονιδίων</el>
+    </rememberIconPositionsCheckBox>
+    <openWindowsExplorerCheckBox>
+      <default>Open Windows Explorer</default>
+      <vi>Mở Windows Explorer</vi>
+      <ko-KR>윈도우 탐색기 열기</ko-KR>
+      <de>Windows Explorer öffnen</de>
+      <it>Apri in Esplora risorse</it>
+      <sl>Plan okno raziskovalec</sl>
+      <ja>エクスプローラを開く</ja>
+      <fi>Avaa Windows Explorer</fi>
+      <zh-Hans>打开Windows资源管理</zh-Hans>
+      <pl>Otwórz w oknie Eksploratora</pl>
+      <pt-BR>Abrir o Windows Explorer</pt-BR>
+      <fr>Ouvrez l'Explorateur Windows</fr>
+      <gl>Abra el Explorador de Windows</gl>
+      <es>Abra el Explorador de Windows</es>
+      <ar-SY>فتح متصفح ويندوز</ar-SY>
+      <hr>Otvori Windows Explorer</hr>
+      <nl-BE>Open windows verkenner</nl-BE>
+      <nl>Windows Verkenner openen</nl>
+      <ru>Открыть в проводнике</ru>
+      <hu>Sajátgép megnyitása</hu>
+      <zh-Hant>開啟 Windows Explorer</zh-Hant>
+      <el>Άνοιξε την εξερεύνηση των Windows</el>
+    </openWindowsExplorerCheckBox>
+    <mediaDetectedAlert>
+      <default>Removeable Media Detected!</default>
+    </mediaDetectedAlert>
+    <checkForMedialCheckBox>
+      <default>Remind me to remove media</default>
+      <de>Erinnerung an Media-Entfernung</de>
+    </checkForMedialCheckBox>
+  </strings>
+</resources>

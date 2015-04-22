@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskDrive", "DeskDrive\DeskDrive.csproj", "{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Setup", "Setup\Setup.vcxproj", "{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F} = {5D83A061-B7F8-4F9D-992F-B58ED7C9874F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SetupOffline", "SetupOffline\SetupOffline.vcxproj", "{B801B5F5-CBBF-4622-A845-E78AD7B709D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E86328D-5D71-471E-B268-CA111F3880F1}"
+	ProjectSection(SolutionItems) = preProject
+		deskdrive-package\tools\ChocolateyInstall.ps1 = deskdrive-package\tools\ChocolateyInstall.ps1
+		deskdrive-package\deskdrive.nuspec = deskdrive-package\deskdrive.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://blueonionsoftware.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DeskDrive\\DeskDrive.csproj
+		SccProjectName1 = DeskDrive
+		SccLocalPath1 = DeskDrive
+		SccProjectUniqueName2 = Setup\\Setup.vcxproj
+		SccProjectName2 = Setup
+		SccLocalPath2 = Setup
+		SccProjectUniqueName3 = SetupOffline\\SetupOffline.vcxproj
+		SccProjectName3 = SetupOffline
+		SccLocalPath3 = SetupOffline
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Release|Win32.ActiveCfg = Release|Any CPU
+		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Debug|Win32.Build.0 = Debug|Win32
+		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Release|Any CPU.ActiveCfg = Release|Win32
+		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Release|Win32.ActiveCfg = Release|Win32
+		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Release|Win32.Build.0 = Release|Win32
+		{B801B5F5-CBBF-4622-A845-E78AD7B709D5}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B801B5F5-CBBF-4622-A845-E78AD7B709D5}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B801B5F5-CBBF-4622-A845-E78AD7B709D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B801B5F5-CBBF-4622-A845-E78AD7B709D5}.Debug|Win32.Build.0 = Debug|Win32
+		{B801B5F5-CBBF-4622-A845-E78AD7B709D5}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B801B5F5-CBBF-4622-A845-E78AD7B709D5}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B801B5F5-CBBF-4622-A845-E78AD7B709D5}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B801B5F5-CBBF-4622-A845-E78AD7B709D5}.Release|Win32.ActiveCfg = Release|Win32
+		{B801B5F5-CBBF-4622-A845-E78AD7B709D5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
