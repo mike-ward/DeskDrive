@@ -156,7 +156,7 @@ namespace BlueOnion
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Copyright 2013 Mike Ward";
+            this.label2.Text = "Copyright 2015 Mike Ward";
             // 
             // label3
             // 
@@ -165,7 +165,7 @@ namespace BlueOnion
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "All rights reserved";
+            this.label3.Text = "MIT License (MIT)";
             // 
             // CDCheckBox
             // 
@@ -226,7 +226,7 @@ namespace BlueOnion
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 12;
-            this.label5.Text = "Version 2.1";
+            this.label5.Text = "Version 2.1.1";
             // 
             // label6
             // 
