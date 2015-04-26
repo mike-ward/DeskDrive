@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'deskdrive' 'exe' '/SILENT' 'http://mike-ward.net/content/downloads/deskdrivesetup.exe'
+Install-ChocolateyPackage 'deskdrive' 'exe' '/SILENT' 'https://github.com/mike-ward/DeskDrive/releases/download/v2.1.1/DeskDriveSetup.exe'
