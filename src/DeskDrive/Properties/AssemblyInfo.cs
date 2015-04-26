@@ -21,7 +21,7 @@ using System.Security.Permissions;
 
 [assembly: Guid("855c8a64-bc33-46ba-9dfe-345eabdc9725")]
 
-[assembly: AssemblyVersion("2.1.0.0")]
-[assembly: AssemblyFileVersion("2.1.0.0")]
+[assembly: AssemblyVersion("2.1.1.0")]
+[assembly: AssemblyFileVersion("2.1.1.0")]
 
 [assembly: NeutralResourcesLanguageAttribute("en")]

@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Desk Drive"
-#define MyAppVersion "2.1"
+#define MyAppVersion "2.1.1"
 #define MyAppPublisher "Mike Ward"
 #define MyAppURL "http://mike-ward.net/deskdrive"
 #define MyAppExeName "DeskDrive.exe"
