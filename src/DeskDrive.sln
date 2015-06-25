@@ -1,20 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22609.0
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskDrive", "DeskDrive\DeskDrive.csproj", "{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Setup", "Setup\Setup.vcxproj", "{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F} = {5D83A061-B7F8-4F9D-992F-B58ED7C9874F}
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E86328D-5D71-471E-B268-CA111F3880F1}"
 	ProjectSection(SolutionItems) = preProject
 		deskdrive-package\tools\ChocolateyInstall.ps1 = deskdrive-package\tools\ChocolateyInstall.ps1
 		deskdrive-package\deskdrive.nuspec = deskdrive-package\deskdrive.nuspec
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Installer", "Installer\Installer.vcxproj", "{EDB29F64-33E0-4ED0-893E-FEF937C2ED70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,15 +33,15 @@ Global
 		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{5D83A061-B7F8-4F9D-992F-B58ED7C9874F}.Release|Win32.ActiveCfg = Release|Any CPU
-		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Debug|Win32.ActiveCfg = Debug|Win32
-		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Debug|Win32.Build.0 = Debug|Win32
-		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Release|Any CPU.ActiveCfg = Release|Win32
-		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Release|Win32.ActiveCfg = Release|Win32
-		{DA39F700-AD51-4A4F-BF4A-B5C72B75CEC8}.Release|Win32.Build.0 = Release|Win32
+		{EDB29F64-33E0-4ED0-893E-FEF937C2ED70}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{EDB29F64-33E0-4ED0-893E-FEF937C2ED70}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{EDB29F64-33E0-4ED0-893E-FEF937C2ED70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDB29F64-33E0-4ED0-893E-FEF937C2ED70}.Debug|Win32.Build.0 = Debug|Win32
+		{EDB29F64-33E0-4ED0-893E-FEF937C2ED70}.Release|Any CPU.ActiveCfg = Release|Win32
+		{EDB29F64-33E0-4ED0-893E-FEF937C2ED70}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{EDB29F64-33E0-4ED0-893E-FEF937C2ED70}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{EDB29F64-33E0-4ED0-893E-FEF937C2ED70}.Release|Win32.ActiveCfg = Release|Win32
+		{EDB29F64-33E0-4ED0-893E-FEF937C2ED70}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

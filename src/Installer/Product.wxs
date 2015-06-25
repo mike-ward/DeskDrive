@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*"
+           Name="Desk Drive"
+           Language="1033"
+           Version="2.1.2"
+           Manufacturer="Mike Ward"
+           UpgradeCode="{0E66FBE4-E980-49D6-B4B3-36804F7817DD}">
+
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perUser" InstallPrivileges="limited" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed."
+                  AllowDowngrades="no"
+                  AllowSameVersionUpgrades="yes" />
+    <Media Id="1" Cabinet="cab1.cab" EmbedCab="yes" />
+    <SetProperty Id="ProgramFilesFolder" Value="[LocalAppDataFolder]" Before="CostFinalize"><![CDATA[NOT Privileged]]></SetProperty>
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="Desk Drive">
+          <Component Id="ApplicationShortcut" Guid="{30EEDDBA-9F2C-44BA-8DE8-A01E61C68B30}">
+            <Shortcut Id="ApplicationStartMenuShortcut"
+                      Name="Desk Drive"
+                      Description="Automatic drive shortcuts"
+                      Target="[INSTALLFOLDER]deskdrive.exe"
+                      WorkingDirectory="INSTALLFOLDER" />
+            <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall" />
+            <RegistryValue Root="HKCU" Key="Software\Microsoft\DeskDrive" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+          </Component>
+        </Directory>
+      </Directory>
+
+      <Directory Id="DesktopFolder" Name="Desktop">
+        <Component Id="ApplicationShortcutDesktop" Guid="{12B3435A-6F17-4484-8F9C-A0D93FF32A6A}">
+          <Shortcut Id="ApplicationDesktopShortcut"
+              Name="Desk Drive"
+              Description="Automatic drive shortcuts"
+              Target="[INSTALLFOLDER]deskdrive.exe"
+              WorkingDirectory="INSTALLFOLDER" />
+          <RemoveFolder Id="DesktopFolder" On="uninstall" />
+          <RegistryValue Root="HKCU" Key="Software\Microsoft\DeskDrive" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+        </Component>
+      </Directory>
+
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="DeskDrive" Name="Desk Drive">
+          <Directory Id="INSTALLFOLDER" Name="bin">
+            <Component Id="deskdrive.exe" Guid="{6347DBB7-6694-4069-8023-318B7322ACB9}">
+              <File Id="deskdrive.exe" KeyPath="yes" Source="$(var.SourceFiles)\deskdrive.exe" />
+            </Component>
+            <Component Id="deskdrive.exe.config" Guid="{0BFF8BEF-AC9E-4BC4-BECB-DF52F686C0C0}">
+              <File Id="deskdrive.exe.config" KeyPath="yes" Source="$(var.SourceFiles)\deskdrive.exe.config" />
+            </Component>
+            <Component Id="deskdrive.exe.xml" Guid="{2D023117-9AAF-408C-8F5F-A298B352A965}">
+              <File Id="deskdrive.exe.xml" KeyPath="yes" Source="$(var.SourceFiles)\deskdrive.exe.xml" />
+            </Component>
+            <Component Id="BigMansStuff.LocusEffects.dll" Guid="{D5627D16-28EC-4C92-B747-8DC9D0565157}">
+              <File Id="BigMansStuff.LocusEffects.dll" KeyPath="yes" Source="$(var.SourceFiles)\BigMansStuff.LocusEffects.dll" />
+            </Component>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+    <UIRef Id="WixUI_Minimal" />
+
+    <Property Id="SKIPFRAMEWORKCHECK" Value="0" />
+    <PropertyRef Id="NETFRAMEWORK45" />
+    <Condition Message="Desk Drive requires .NET Framework 4.5.2. Visit http://smallestdotnet.com">
+      <![CDATA[Installed OR (SKIPFRAMEWORKCHECK <> 0) OR (NETFRAMEWORK45 >= "#379893")]]>
+    </Condition>
+
+    <Feature Id="ProductFeature" Title="Desk Drive" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <ComponentRef Id="ApplicationShortcut" />
+      <ComponentRef Id="ApplicationShortcutDesktop" />
+      <ComponentRef Id="deskdrive.exe" />
+      <ComponentRef Id="deskdrive.exe.config" />
+      <ComponentRef Id="deskdrive.exe.xml" />
+      <ComponentRef Id="BigMansStuff.LocusEffects.dll" />
+    </ComponentGroup>
+  </Product>
+</Wix>
