@@ -21,7 +21,7 @@
           <Component Id="ApplicationShortcut" Guid="{30EEDDBA-9F2C-44BA-8DE8-A01E61C68B30}">
             <Shortcut Id="ApplicationStartMenuShortcut"
                       Name="Desk Drive"
-                      Description="Automatic drive shortcuts"
+                      Description="Automatic drive/media shortcuts on your desktop"
                       Target="[INSTALLFOLDER]deskdrive.exe"
                       WorkingDirectory="INSTALLFOLDER" />
             <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall" />
@@ -34,7 +34,7 @@
         <Component Id="ApplicationShortcutDesktop" Guid="{12B3435A-6F17-4484-8F9C-A0D93FF32A6A}">
           <Shortcut Id="ApplicationDesktopShortcut"
               Name="Desk Drive"
-              Description="Automatic drive shortcuts"
+              Description="Automatic drive/media shortcuts on your desktop"
               Target="[INSTALLFOLDER]deskdrive.exe"
               WorkingDirectory="INSTALLFOLDER" />
           <RemoveFolder Id="DesktopFolder" On="uninstall" />
