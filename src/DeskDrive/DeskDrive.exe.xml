@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--
   The format for the culture name is "<languagecode2>-<country/regioncode2>", where <languagecode2>
-  is the language code and <country/regioncode2> is the subculture code. Examples include "ja-JP" 
-  for Japanese (Japan) and "en-US" for English (United States). In cases where a two-letter language 
+  is the language code and <country/regioncode2> is the subculture code. Examples include "ja-JP"
+  for Japanese (Japan) and "en-US" for English (United States). In cases where a two-letter language
   code is not available, a three-letter code derived from ISO 639-2 is used.
-  
-  A neutral culture is specified by only the two-digit lowercase language code. For example, "fr" 
+
+  A neutral culture is specified by only the two-digit lowercase language code. For example, "fr"
   specifies the neutral culture for French, and "de" specifies the neutral culture for German.
 -->
 <resources>
@@ -75,10 +75,10 @@
       <ko-KR>데스크 드라이브</ko-KR>
     </label1>
     <label2>
-      <default>Copyright © 2013 Mike Ward</default>
-      <vi>Bản quyền © 2013 Mike Ward</vi>
-      <ko-KR>저작권 © 2013 Mike Ward</ko-KR>
-      <zh-Hans>版权 © 2013 Mike Ward</zh-Hans>
+      <default>Copyright © 2015 Mike Ward</default>
+      <vi>Bản quyền © 2015 Mike Ward</vi>
+      <ko-KR>저작권 © 2015 Mike Ward</ko-KR>
+      <zh-Hans>版权 © 2015 Mike Ward</zh-Hans>
     </label2>
     <label3>
       <default>All rights reserved</default>
@@ -207,27 +207,27 @@
       <el>RAM</el>
     </RamCheckBox>
     <label5>
-      <default>Version 2.1</default>
-      <vi>Phiên bản 2.1</vi>
-      <ko-KR>버전 2.1</ko-KR>
-      <de>Version 2.1</de>
-      <it>Versione 2.1</it>
-      <sl>Verzija 2.1</sl>
-      <ja>バージョン 2.1</ja>
-      <fi>Versio 2.1</fi>
-      <zh-Hans>版本 2.1</zh-Hans>
-      <pl>Wersja 2.1</pl>
-      <pt-BR>versão 2.1</pt-BR>
-      <fr>version 2.1</fr>
-      <gl>Versión 2.1</gl>
-      <es>Versión 2.1</es>
-      <ar-SY>الإصدار 2.1</ar-SY>
-      <hr>Verzija 2.1</hr>
-      <nl-BE>Versie 2.1</nl-BE>
-      <nl>Versie 2.1</nl>
-      <ru>Версия 2.1</ru>
-      <hu>Verzió 2.1</hu>
-      <zh-Hant>版本 2.1</zh-Hant>
+      <default>Version 2.1.2</default>
+      <vi>Phiên bản 2.1.2</vi>
+      <ko-KR>버전 2.1.2</ko-KR>
+      <de>Version 2.1.2</de>
+      <it>Versione 2.1.2</it>
+      <sl>Verzija 2.1.2</sl>
+      <ja>バージョン 2.1.2</ja>
+      <fi>Versio 2.1.2</fi>
+      <zh-Hans>版本 2.1.2</zh-Hans>
+      <pl>Wersja 2.1.2</pl>
+      <pt-BR>versão 2.1.2</pt-BR>
+      <fr>version 2.1.2</fr>
+      <gl>Versión 2.1.2</gl>
+      <es>Versión 2.1.2</es>
+      <ar-SY>الإصدار 2.1.2</ar-SY>
+      <hr>Verzija 2.1.2</hr>
+      <nl-BE>Versie 2.1.2</nl-BE>
+      <nl>Versie 2.1.2</nl>
+      <ru>Версия 2.1.2</ru>
+      <hu>Verzió 2.1.2</hu>
+      <zh-Hant>版本 2.1.2</zh-Hant>
     </label5>
     <label6>
       <default>Automatic drive/media shortcuts for your desktop</default>
@@ -254,7 +254,7 @@
       <el>Αυτόματες συντομεύσεις για δίσκους/πολυμέσα για την επιφάνεια εργασίας</el>
     </label6>
     <linkLabel1>
-      <default>http://mike-ward/deskdrive</default>
+      <default>http://mike-ward.net/deskdrive</default>
     </linkLabel1>
     <groupBox1>
       <default>Enable</default>

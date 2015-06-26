@@ -1,5 +1,3 @@
-// Copyright (c) 2011 Blue Onion Software, All rights reserved
-
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -16,11 +14,12 @@ namespace BlueOnion
     public partial class DeskDrive : Form
     {
         private readonly ShortcutCollection _shortcuts = new ShortcutCollection();
+
         public string RemoveableMediaDetectedAlert { get; private set; }
 
         public DeskDrive()
         {
-            //System.Threading.Thread.CurrentThread.CurrentUICulture = 
+            //System.Threading.Thread.CurrentThread.CurrentUICulture =
             //    new System.Globalization.CultureInfo("el-GR");
 
             InitializeComponent();
@@ -57,7 +56,6 @@ namespace BlueOnion
                     hideButton.Text = xmlResourceManager.GetString("hideButton");
                     label1.Text = xmlResourceManager.GetString("label1");
                     label2.Text = xmlResourceManager.GetString("label2");
-                    label3.Text = xmlResourceManager.GetString("label3");
                     CDCheckBox.Text = xmlResourceManager.GetString("CDCheckBox");
                     removableCheckBox.Text = xmlResourceManager.GetString("RemovableCheckBox");
                     fixedCheckBox.Text = xmlResourceManager.GetString("FixedCheckBox");
@@ -82,7 +80,6 @@ namespace BlueOnion
                     remindRemoveMediaCheckBox.Text = xmlResourceManager.GetString("checkForMedialCheckBox");
                 }
             }
-
             catch (Exception ex)
             {
                 Program.LogError(ex.Message);
@@ -188,7 +185,6 @@ namespace BlueOnion
                                     "", "", NativeMethods.ShowCommands.SW_SHOWDEFAULT);
                         }
                     }
-
                     catch (Exception ex)
                     {
                         Program.LogError(ex.Message);
@@ -230,7 +226,7 @@ namespace BlueOnion
                 if (drive.Name[1] == Path.VolumeSeparatorChar)
                 {
                     var key = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\" +
-                              drive.Name[0] + @"\DefaultLabel";
+                        drive.Name[0] + @"\DefaultLabel";
 
                     name = Registry.LocalMachine.GetValue(key) as string ?? "";
                 }
@@ -257,14 +253,19 @@ namespace BlueOnion
             {
                 case DriveType.CDRom:
                     return CDCheckBox.Checked;
+
                 case DriveType.Removable:
                     return removableCheckBox.Checked;
+
                 case DriveType.Fixed:
                     return fixedCheckBox.Checked;
+
                 case DriveType.Network:
                     return networkedCheckBox.Checked;
+
                 case DriveType.Ram:
                     return ramCheckBox.Checked;
+
                 default:
                     return false;
             }
@@ -286,7 +287,6 @@ namespace BlueOnion
                 if (drive.DriveType == DriveType.Removable)
                     information = string.Format(" - {0:0.0}GB ({1:0.0})", drive.TotalSize/gb, drive.TotalFreeSpace/gb);
             }
-
             catch (IOException)
             {
             }
@@ -301,12 +301,12 @@ namespace BlueOnion
                 _systemShuttingDown = false;
                 e.Cancel = true;
                 Task.Factory.StartNew(() =>
-                     MessageBox.Show(
-                         this,
-                         RemoveableMediaDetectedAlert,
-                         null,
-                         MessageBoxButtons.OK,
-                         MessageBoxIcon.Warning));
+                    MessageBox.Show(
+                        this,
+                        RemoveableMediaDetectedAlert,
+                        null,
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning));
             }
         }
 
@@ -351,7 +351,6 @@ namespace BlueOnion
             {
                 File.Delete(path);
             }
-
             catch (Exception ex)
             {
                 Program.LogError(ex.Message);
@@ -366,7 +365,6 @@ namespace BlueOnion
                 BringToFront();
                 Activate();
             }
-
             else if (message.Msg == NativeMethods.WM_DEVICECHANGE)
             {
                 var wpar = (uint) message.WParam;
@@ -374,7 +372,6 @@ namespace BlueOnion
                 if (wpar == NativeMethods.DBT_DEVICEARRIVAL || wpar == NativeMethods.DBT_DEVICEREMOVECOMPLETE)
                     CheckDrivesTimerTick(this, EventArgs.Empty);
             }
-
             else if (message.Msg == NativeMethods.WM_QUERYENDSESSION)
             {
                 if (Settings.Default.RemindRemove && RemoveableMediaPresent())
@@ -403,19 +400,18 @@ namespace BlueOnion
 
             if (register)
                 key.SetValue(subkey, Application.ExecutablePath, RegistryValueKind.String);
-
             else
                 key.DeleteValue(subkey, false);
         }
 
-        private static void LinkLabel1LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void LinkLabel1LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("http://mike-ward.net/deskdrive");
         }
 
         private static void SetWorkingSetSize()
         {
-            var size = new UIntPtr(UInt32.MaxValue);
+            var size = new UIntPtr(uint.MaxValue);
             NativeMethods.SetProcessWorkingSetSize(Process.GetCurrentProcess().Handle, size, size);
         }
 

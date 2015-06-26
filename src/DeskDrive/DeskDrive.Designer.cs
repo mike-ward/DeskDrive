@@ -15,7 +15,6 @@ namespace BlueOnion
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox CDCheckBox;
         private System.Windows.Forms.CheckBox removableCheckBox;
         private System.Windows.Forms.CheckBox fixedCheckBox;
@@ -62,7 +61,6 @@ namespace BlueOnion
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.CDCheckBox = new System.Windows.Forms.CheckBox();
             this.removableCheckBox = new System.Windows.Forms.CheckBox();
             this.fixedCheckBox = new System.Windows.Forms.CheckBox();
@@ -158,15 +156,6 @@ namespace BlueOnion
             this.label2.TabIndex = 4;
             this.label2.Text = "Copyright 2015 Mike Ward";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 99);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "MIT License (MIT)";
-            // 
             // CDCheckBox
             // 
             this.CDCheckBox.AutoSize = true;
@@ -224,7 +213,7 @@ namespace BlueOnion
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(22, 41);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 13);
+            this.label5.Size = new System.Drawing.Size(69, 13);
             this.label5.TabIndex = 12;
             this.label5.Text = "Version 2.1.1";
             // 
@@ -246,6 +235,7 @@ namespace BlueOnion
             this.linkLabel1.TabIndex = 14;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "http://mike-ward.net/deskdrive";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1LinkClicked);
             // 
             // groupBox1
             // 
@@ -394,7 +384,6 @@ namespace BlueOnion
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.drivesLabel);
             this.Controls.Add(this.groupBox1);
