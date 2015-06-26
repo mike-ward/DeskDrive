@@ -1,0 +1,1 @@
+msbuild src\deskdrive.sln /tv:14.0 /p:configuration=release /verbosity:minimal
