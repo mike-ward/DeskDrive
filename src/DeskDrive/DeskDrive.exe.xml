@@ -36,6 +36,7 @@
       <hu>Beállítások...</hu>
       <zh-Hant>設定...</zh-Hant>
       <el>Ρυθμίσεις</el>
+      <cs>Nastavení...</cs>
     </showToolStripMenuItem>
     <exitToolStripMenuItem>
       <default>Exit</default>
@@ -60,6 +61,7 @@
       <hu>Kilépés</hu>
       <zh-Hant>離開</zh-Hant>
       <el>Έξοδος</el>
+      <cs>Konec...</cs>
     </exitToolStripMenuItem>
     <hideButton>
       <default>OK</default>
@@ -69,6 +71,7 @@
       <hr>Prihvati</hr>
       <zh-Hant>確定</zh-Hant>
       <el>ΟΚ</el>
+      <cs>OK</cs>
     </hideButton>
     <label1>
       <default>Desk Drive</default>
@@ -100,6 +103,7 @@
       <ru>Все права защищены</ru>
       <hu>Minden jog fenntartva</hu>
       <el>Όλα τα δικαιώματα διατηρούνται</el>
+      <cs>Všechna práva vyhrazena</cs>
     </label3>
     <CDCheckBox>
       <default>CD ROM</default>
@@ -117,6 +121,7 @@
       <hu>CD-ROM</hu>
       <zh-Hant>光碟機</zh-Hant>
       <el>CD-ROM</el>
+      <cs>CD-ROM</cs>
     </CDCheckBox>
     <RemovableCheckBox>
       <default>Removable</default>
@@ -141,6 +146,7 @@
       <hu>Cserélhető</hu>
       <zh-Hant>卸除式裝置</zh-Hant>
       <el>Προσθαφαιρούμενα</el>
+      <cs>Přenosné</cs>
     </RemovableCheckBox>
     <FixedCheckBox>
       <default>Fixed</default>
@@ -165,6 +171,7 @@
       <hu>Nem cserélhető</hu>
       <zh-Hant>本機磁碟</zh-Hant>
       <el>Σταθερά</el>
+      <cs>Pevné</cs>
     </FixedCheckBox>
     <NetworkedCheckBox>
       <default>Networked</default>
@@ -189,6 +196,7 @@
       <hu>Hálózati</hu>
       <zh-Hant>網路虛擬磁碟</zh-Hant>
       <el>Δικτυακά</el>
+      <cs>Síťové</cs>
     </NetworkedCheckBox>
     <RamCheckBox>
       <default>RAM</default>
@@ -205,6 +213,7 @@
       <hu>Memória</hu>
       <zh-Hant>記憶體 (RAM)</zh-Hant>
       <el>RAM</el>
+      <cs>RAM</cs>
     </RamCheckBox>
     <label5>
       <default>Version 2.1.2</default>
@@ -228,6 +237,7 @@
       <ru>Версия 2.1.2</ru>
       <hu>Verzió 2.1.2</hu>
       <zh-Hant>版本 2.1.2</zh-Hant>
+      <cs>Verze 2.1.2</cs>
     </label5>
     <label6>
       <default>Automatic drive/media shortcuts for your desktop</default>
@@ -252,6 +262,7 @@
       <hu>Automatikus meghajtó-parancsikon az asztalra</hu>
       <zh-Hant>自動在桌面新增磁碟 / 隨身碟圖示</zh-Hant>
       <el>Αυτόματες συντομεύσεις για δίσκους/πολυμέσα για την επιφάνεια εργασίας</el>
+      <cs>Automatické disk/media zástupci pro vaši plochu</cs>
     </label6>
     <linkLabel1>
       <default>http://mike-ward.net/deskdrive</default>
@@ -279,6 +290,7 @@
       <hu>Aktiválás</hu>
       <zh-Hant>啟用</zh-Hant>
       <el>Ενεργοποιημένα</el>
+      <cs>Aktivovat</cs>
     </groupBox1>
     <label7>
       <default>Exclude</default>
@@ -303,6 +315,7 @@
       <hu>Kivétel</hu>
       <zh-Hant>排除</zh-Hant>
       <el>Παρέλειψε</el>
+      <cs>Vyloučit</cs>
     </label7>
     <label8>
       <default>( example: C:\, D:\ )</default>
@@ -327,6 +340,7 @@
       <hu>( Például: C:\, D:\ )</hu>
       <zh-Hant>( 例如: C:\, D:\ )</zh-Hant>
       <el>( π.χ.: C:\, D:\ )</el>
+      <cs>( příklad: C:\, D:\ )</cs>
     </label8>
     <HideTrayCheckBox>
       <default>Hide tray icon</default>
@@ -351,6 +365,7 @@
       <hu>Tálcaikon elrejtése</hu>
       <zh-Hant>隱藏系統匣圖示</zh-Hant>
       <el>Απόκρυψη εικονιδίου μπάρας εργασίας</el>
+      <cs>Skrýt Ikonu</cs>
     </HideTrayCheckBox>
     <StartupCheckBox>
       <default>Run on startup</default>
@@ -375,6 +390,7 @@
       <hu>Automatikus indítás</hu>
       <zh-Hant>開機啟動</zh-Hant>
       <el>Εκτέλεση κατά την εκκίνηση</el>
+      <cs>Spustit při startu</cs>
     </StartupCheckBox>
     <DeskDrive>
       <default>Desk Drive</default>
@@ -402,6 +418,7 @@
       <hu>Minden ablak lekicsinyítése</hu>
       <zh-Hant>最小化所有視窗</zh-Hant>
       <el>Ελαχιστοποίησε όλα τα παράθυρα</el>
+      <cs>Minimalizace všech oken</cs>
     </minimizeAllCheckBox>
     <locusEffectCheckBox>
       <default>Show positional effect</default>
@@ -426,6 +443,7 @@
       <hu>Ikon helyének mutatása</hu>
       <zh-Hant>顯示光暈效果</zh-Hant>
       <el>Δείξε εφέ τοποθέτησης</el>
+      <cs>Ukázat poziční efekt</cs>
     </locusEffectCheckBox>
     <rememberIconPositionsCheckBox>
       <default>Remember icon positions</default>
@@ -450,6 +468,7 @@
       <hu>Ikon pozíciók megjegyzése</hu>
       <zh-Hant>記住圖示的位置</zh-Hant>
       <el>Θυμήσου την θέση των εικονιδίων</el>
+      <cs>Zapamatovat pozici ikony</cs>
     </rememberIconPositionsCheckBox>
     <openWindowsExplorerCheckBox>
       <default>Open Windows Explorer</default>
@@ -474,6 +493,7 @@
       <hu>Sajátgép megnyitása</hu>
       <zh-Hant>開啟 Windows Explorer</zh-Hant>
       <el>Άνοιξε την εξερεύνηση των Windows</el>
+      <cs>Spustit Průzkumníka Windows</cs>
     </openWindowsExplorerCheckBox>
     <mediaDetectedAlert>
       <default>Removeable Media Detected!</default>
@@ -481,6 +501,7 @@
     <checkForMedialCheckBox>
       <default>Remind me to remove media</default>
       <de>Erinnerung an Media-Entfernung</de>
+      <cs>Upozornit při odpojení media</cs>
     </checkForMedialCheckBox>
   </strings>
 </resources>
