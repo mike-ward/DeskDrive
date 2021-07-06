@@ -12,7 +12,7 @@ automatically. Remove the media and the shortcut goes away. Brilliantly simple
 and effective.
 
 ![Configurations Dialog](https://mike-ward.net/cdn/images/deskdrive/deskdrive.png) [![Screen 00007](https://user-images.githubusercontent.com/7925717/124552337-b10c3e00-de33-11eb-9371-7ce9754702d6.jpg)](https://user-images.githubusercontent.com/7925717/124552433-d436ed80-de33-11eb-966e-bdb513a7a924.jpg)
-![Screen 00009]
+
 
 
 
