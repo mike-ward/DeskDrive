@@ -35,7 +35,7 @@ Thanks!
 
 ### Languages
 
-* nglish
+* English
 * Arabic (Syrian)
 * Chinese
 * Croatian
